@@ -9,7 +9,29 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    
+}
+
+.carousel-container {
+  width: 65%; 
+  margin:auto; 
+}
+
+.carousel-inner {
+  max-width: 100%; 
+
+}
+
+.carousel-inner img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+
+
+.carousel-control-prev, .carousel-control-next {
+  font-size: 50px; 
 }
 
 
@@ -387,7 +409,24 @@ margin-right: auto;
 
 @media (max-width: 768px) {
   .dropdown-menu {
-    text-align: left; /* Ajusta la alineación si es necesario */
+    text-align: left; 
   }
 }
+
+@media (min-width: 767px) {
+  .carousel-inner img {
+      height: 500px; /* Ajusta la altura según sea necesario */
+      object-fit: cover;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
